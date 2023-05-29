@@ -65,11 +65,11 @@
 	color: #fff; 
 }
 
-.iosSlider .slider .item1 .inner { background-image: url('../images/DSC_0819.jpg'); }
+.iosSlider .slider .item1 .inner { background-image: url('https://guidingstar.oss-cn-nanjing.aliyuncs.com/images/DSC_0819.JPG'); }
 
-.iosSlider .slider .item2 .inner { background-image: url('../images/DSC_0579.jpg'); }
+.iosSlider .slider .item2 .inner { background-image: url('https://guidingstar.oss-cn-nanjing.aliyuncs.com/images/DSC_0579.JPG'); }
 
-.iosSlider .slider .item3 .inner { background-image: url('../images/DSC_0655.jpg'); }
+.iosSlider .slider .item3 .inner { background-image: url('https://guidingstar.oss-cn-nanjing.aliyuncs.com/images/DSC_0655.JPG'); }
 
 .sliderContainer .slideSelectors {
 	position: absolute;
