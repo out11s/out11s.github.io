@@ -4,6 +4,8 @@
 		<title>联系我们</title>
 		<meta charset="utf-8">
 		<meta name = "format-detection" content = "telephone=no" />
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" />
 		<link rel="stylesheet" href="css/form.css">
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/jquery.js"></script>
@@ -24,7 +26,7 @@
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-			<img src="http://storage.ie6countdown.com/assets/100/https://guidingstar.oss-cn-nanjing.aliyuncs.com/images/banners/warning_bar_0000_us.JPG" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.JPG" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
 			</a>
 		</div>
 		<![endif]-->
@@ -40,7 +42,7 @@
 				<div class="grid_12">
 					<h1>
 						<a href="index.html">
-							<img src="https://guidingstar.oss-cn-nanjing.aliyuncs.com/images/logo11.png" alt="Your Happy Family">
+							<img src="images/logo11.png" alt="Your Happy Family">
 						</a>
 					</h1>
 					<div class="menu_block">
@@ -74,25 +76,22 @@
 							<h2>地址:</h2>
 							<address>
 								<span class="fa fa-home"></span>
-								11 <br>
-								11 <br>
-								11
+								江苏省南京市宁六路219号 <br>
 							</address>
 						</div>
 						<div class="grid_4">
 							<h2>电话:</h2>
 							<div class="m_phone">
 								<div class="fa fa-phone"></div>
-							11
+							10086
 							</div>
 							<div class="m_phone">
 								<div class="fa fa-print"></div>
-								11
 							</div>
 						</div>
 						<div class="grid_4 omega">
 							<h2>邮箱:</h2>
-							<a href="#"><span class="fa fa-envelope-o"></span> 11</a>
+							<a href="#"><span class="fa fa-envelope-o"></span> 10086@qq.com</a>
 						</div>
 						<div class="clear"></div>
 					</div>
@@ -124,8 +123,8 @@
 						<div>
 							<div class="clear"></div>
 							<div class="btns">
-								<a href="#" data-type="reset" class="btn">Clear</a>
-								<a href="#" data-type="submit" class="btn">Send</a>
+								<a href="#" data-type="reset" class="btn">清空</a>
+								<a href="#" data-type="submit" class="btn">发送</a>
 							</div>
 						</div>
 					</form>
@@ -138,7 +137,7 @@
 			<div class="container_12">
 				<div class="grid_12">
 					<div class="copy">
-	HelpingStar &copy; 2023 | <a href="#">Privacy Policy</a>					</div>
+	GuidingStar &copy; 2023 | <a href="#">Privacy Policy</a>					</div>
 				</div>
 			</div>
 		</footer>
@@ -172,7 +171,7 @@
       ];
       for(var index = 0; index < markers.length; index++ ){
         var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
-        var marker = new BMap.Marker(point,{icon:new BMap.Icon("https://api.map.baidu.com/lbsapi/createmap/https://guidingstar.oss-cn-nanjing.aliyuncs.com/images/icon.png",new BMap.Size(20,25),{
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("https://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
           imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
         })});
         var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
